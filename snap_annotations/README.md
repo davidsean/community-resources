@@ -1,11 +1,12 @@
 # Snap Annotations
 
-Adjusts the temporal coordinate on annotations to snap to closest exact video timestamp. Actually just takes the integer part of the frame.
+Adjusts the temporal coordinate on annotations to snap to closest "exact" timestamp of a video frame.
 
 
 ## Usage
-
 Make a token, get the video_id and run the script!
+
+For the moment, you need to specify the video framerate.
 
 WARNING: This may modify all annotations of the video!
 Make a volume backup first.
