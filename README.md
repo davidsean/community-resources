@@ -15,7 +15,7 @@ This is a list of scripts using the BIIGLE API that are currently available in t
 | [`create-volume`](create-volume)                 | Create a new volume based on files found in a local directory.                                           |
 | [`check_coordinates`](check_coordinates)         | Parses a CSV image annotation report file and adjusts all annotation coordinates to be inside the image. |
 | [`annotations_to_biigle`](annotations_to_biigle) | Import pascalVOC annotations to BIIGLE, automatic detection and import using yoloV5 models.              |
-
+| [`snap_annotations`](snap_annotations) | Modifies the timestamps of video annotations to align on video frames.              |
 ### Add your script
 
 Please read the [contributing guidelines](CONTRIBUTING.md) for more information on how to add your own custom scripts to this collection.
